@@ -1,0 +1,26 @@
+
+A set of Lua scripts to help solve Foldit puzzles.
+
+
+To build a script for a puzzle (eg: 969)
+
+    $ make 969
+
+This will create a script named 'bin/do_969.lua'.
+
+
+To use the script, you first need a recipe:
+
+    - open the cookbook
+    - create a recipe in Foldit for the script
+
+Then, whenever the script is updated:
+
+    - open the recipe in the editor
+    - click Load
+    - click Import
+    - navigate to the file 'bin/do_969.lua'
+    - click Save
+    - click Close
+    - Open the Recipe Output window
+    - run the script
